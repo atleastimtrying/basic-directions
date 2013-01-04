@@ -1,0 +1,32 @@
+div#google-directions {
+  max-width: 348px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ccc; }
+  div#google-directions input {
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px; }
+  div#google-directions a.get-directions {
+    color: #fff;
+    background: #42AA57;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out; }
+    div#google-directions a.get-directions:hover {
+      background: #ccc; }
+  div#google-directions div.gmap-section {
+    display: none; }
+  div#google-directions tr:nth-child(even) {
+    background: #eee; }
